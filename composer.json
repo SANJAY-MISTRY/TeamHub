@@ -1,0 +1,8 @@
+{
+	"name": "teamhub/app",
+	"description": "TeamHub project management app built with CodeIgniter 3",
+	"type": "project",
+	"require": {
+		"php": ">=7.4"
+	}
+}
