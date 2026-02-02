@@ -1,7 +1,3 @@
--- TeamHub CI3 Database Schema (MySQL)
--- Create database (run once if not exists)
--- CREATE DATABASE teamhub CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
--- USE teamhub;
 
 DROP TABLE IF EXISTS tasks;
 DROP TABLE IF EXISTS projects;
