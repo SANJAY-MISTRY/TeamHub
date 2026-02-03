@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
-<div class="page page-narrow">
+<div class="page">
     <div class="breadcrumbs">
         <a href="<?php echo site_url('dashboard'); ?>">Dashboard</a>
         &raquo;

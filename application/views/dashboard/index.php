@@ -2,7 +2,14 @@
 
 <div class="layout">
     <aside class="sidebar">
-        <h2>Your Teams</h2>
+        <div class="sidebar-header" style="display:flex;align-items:center;justify-content:space-between;gap:0.5rem;">
+            <h2 style="margin:0;">Your Teams</h2>
+            <?php if (! empty($currentTeam)): ?>
+                <a class="btn" style="padding:0.2rem 0.6rem;font-size:0.75rem;" href="<?php echo site_url('teams/' . (int) $currentTeam['id'] . '/members'); ?>">
+                    Members
+                </a>
+            <?php endif; ?>
+        </div>
 
         <?php if ($this->session->flashdata('error')): ?>
             <div class="flash flash-error">
@@ -15,7 +22,7 @@
             </div>
         <?php endif; ?>
 
-        <div class="teams-list">
+        <div class="teams-list" style="margin-top:0.75rem;">
             <?php if (! empty($teams)): ?>
                 <form method="post" action="<?php echo site_url('teams/switch'); ?>">
                     <div class="field">

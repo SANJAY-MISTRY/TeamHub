@@ -42,7 +42,7 @@
 
         .breadcrumbs { font-size:0.8rem; margin-bottom:0.5rem; color:#6b7280; }
         .breadcrumbs a { color:#2563eb; text-decoration:none; }
-        .breadcrumbs a:hover { text-decoration:underline; }
+        .breadcrumbs a:hover { text-decoration:none; }
 
         .top { display:flex; flex-wrap:wrap; gap:1rem; align-items:flex-start; margin-bottom:1rem; }
         .summary { background:#fff; padding:0.9rem 1rem; border-radius:8px; box-shadow:0 5px 16px rgba(15,23,42,0.08); flex:1 1 260px; }
